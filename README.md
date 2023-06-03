@@ -2,41 +2,42 @@
 cd to dashboard-backend and write command "node index.js" or if you have nodemon "nodemon-index.js".  
 
 # Frontend React Server
-At the end, there is a default readme provided by react which can be used to start the app. "npm start" will be used to start the server.  
+At the end, there is a default readme provided by react which can be used to start the app. "npm start" will be used to start the server.    
+Please see the screenshots folder.
 
 # What this project does?
 This project is basically a web dashboard in MERN to communicate between two users: Manufacturer and Transporter. Both will have different input forms for entering data.
 As first step, manufacturer sends an order request to a transporter selected by the manufacturer. This order request is shown on transporter's landing page who can see the details of the order request and sends a price value for this order. Manufacturer receives the transporter's response along with the order he sent.  
 
 This project uses MongoDB for database, nodejs & expressjs in backend and Reactjs and it's ContextAPI in frontend.  
-Some important libraries used are jwt, crypto-js, material-ui.  
+Some important libraries used are jwt, crypto-js & material-ui.  
 
 # More Details
 Registration Form:  
-    1.Name: Input text box.  
-    2.Email: Input text box.  
-    3.Password: Input text box.  
-    4.Confirm Password: Input text box.  
-    5.Address: Input text box.  
-    6.Role: A radio-button.  
+    &emsp;1.Name: Input text box.  
+    &emsp;2.Email: Input text box.  
+    &emsp;3.Password: Input text box.  
+    &emsp;4.Confirm Password: Input text box.  
+    &emsp;5.Address: Input text box.  
+    &emsp;6.Role: A radio-button.  
       
 Login Form:  
-    1.Email: Input text box.  
-    2.Password: Input text box.  
+    &emsp;1.Email: Input text box.  
+    &emsp;2.Password: Input text box.  
 
 Order Request Form for manufacture:  
-    1. Order ID: an Alphanumeric code (for ex: XB120) is auto-populated.  
-    2. To:  
-    3. From:  
-    4. Quantity: Drop down menu where he can choose 1,2,3 ton.  
-    5. Address: Address is automatically populated from the user details that the manufacturer has submitted during the registration.  
-    6. Transporter: Drop down menu to select transporter.  
-    7. A send button.  
+    &emsp;1. Order ID: an Alphanumeric code (for ex: XB120) is auto-populated.  
+    &emsp;2. To:  
+    &emsp;3. From:  
+    &emsp;4. Quantity: Drop down menu where he can choose 1,2,3 ton.  
+    &emsp;5. Address: Address is automatically populated from the user details that the manufacturer has submitted during the registration.  
+    &emsp;6. Transporter: Drop down menu to select transporter.  
+    &emsp;7. A send button.  
       
 Order Response form for transporter:  
-    1.Order ID: List box to select the order id received from the Manufacturer.  
-    2.Price(in Rs.): input form, float value.  
-    3. A reply button.  
+    &emsp;1.Order ID: List box to select the order id received from the Manufacturer.  
+    &emsp;2.Price(in Rs.): input form, float value.  
+    &emsp;3. A reply button.  
       
 Search query in message-box(for both manufacture and transporter): It can take values like OrderId, to, from values.  
   
